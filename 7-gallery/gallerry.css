@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Slab:wght@200&display=swap');
+.gallery>img {
+    width: 350px;
+    margin: 2%;
+    box-shadow: 5px 5px 10px;
+}
+h4, h1 {
+    font-size: 30px;
+    font-family: 'Roboto Slab';
+    color:midnightblue;
+}
+h1 {
+    font-family: 'Nunito';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+i {
+    display: flex;
+    justify-content: end;
+    padding-right: 10%;
+    font-size: 20px;
+    font-family: 'Nunito';
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Slab:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    width: 90%;
+    margin: 5% auto;
+    box-shadow: 5px 5px 20px;
+    padding: 3%;
+    border: 5px rgb(130, 140, 255) inset;
+}
+h1 {
+    color: darkslategray;
+    font-family: 'Nunito';
+}
+p {
+    font-size: 20px;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+}
+.history>p::first-letter {
+    color: red;
+    font-size: 30px;
+    font-style:oblique;
+}
+strong {
+    color: crimson;
+    text-shadow: 10px 0 15px yellow;
+}
+.phones, .gmailes {
+    display: flex;
+    align-items: center;
+}
+#phone, #gmail {
+    width: 50px;
+    margin: 1% ;
+}
+.name {
+    background-color: rgb(169, 255, 226);
+    padding: 2%;
+    font-family: 'Nunito';
+    font-size: 25px;
+    box-shadow: 5px 5px 15px;
+    border-radius: 10px;
+}
+.history>img {
+    margin: 2%;
+    width: 450px;
+    box-shadow: 5px 5px 10px;
+}

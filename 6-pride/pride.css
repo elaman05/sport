@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Slab:wght@200&display=swap');
+.pride {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.pride>img {
+    width: 350px;
+    margin: 1%;
+    padding: 1%;
+    box-shadow: 5px 5px 10px;
+}
+h4, h1 {
+    width: 90%;
+    padding: 0 5%;
+    font-size: 30px;
+    font-family: 'Nunito';
+    color:midnightblue;
+}
+h1 {
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    text-shadow: 5px 5px 10px;
+    color: black;
+}
+i {
+    display: flex;
+    justify-content: end;
+    padding-right: 10%;
+    font-size: 20px;
+    font-family: 'Nunito';
+}

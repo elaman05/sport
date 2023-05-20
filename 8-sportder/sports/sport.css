@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Sono&display=swap');
+main {
+    width: 80%;
+    margin: 5% 10%;
+}
+.logo {
+    width: 200px;
+    margin: 2%;
+    padding: 1%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px;
+}
+main>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 600px;
+    height: 100px;
+    background-color:midnightblue;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito';
+    box-shadow: 5px 5px 15px yellow;
+}
+a:hover {
+    box-shadow: 5px 5px 15px blueviolet;
+    background-color: bisque;
+    color: black;
+}
